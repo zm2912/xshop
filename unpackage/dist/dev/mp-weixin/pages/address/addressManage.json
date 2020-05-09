@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker",
+    "area-select": "/components/area-select/area-select"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#FFE437",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "groupon-box": "/pages/indexcpoy/child/grouponBox",
+    "notice": "/pages/indexcpoy/child/notice",
+    "goods-swiper": "/components/pyh-goodsSwiper/pyh-goodsSwiper"
+  }
+}

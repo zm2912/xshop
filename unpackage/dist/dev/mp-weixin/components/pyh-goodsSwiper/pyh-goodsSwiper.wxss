@@ -1,0 +1,14 @@
+
+.goodsSwiperBox{width: 710rpx;margin: 20rpx;border-radius: 20rpx;background: #fff;position: relative;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.goodsSwiperBox .gswTitle{display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;justify-content: space-between;-webkit-box-align: center;-webkit-align-items: center;align-items: center;height: 80rpx;color: #999;padding-left: 10rpx;}
+.goodsSwiperBox .gswTitle .gswTL{display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;font-size: 24rpx;}
+.goodsSwiperBox .gswTitle .gswTL text:first-child{font-weight: bold;font-size: 36rpx;margin-right: 5rpx;color: #000;}
+.goodsSwiperBox .gswTitle .gswTL text:nth-child(2){background: red;color: #fff;border-radius: 16rpx;line-height: 33rpx;font-size: 22rpx;padding: 0 12rpx;}
+.goodsSwiperBox .gswTitle .gswTR{display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;font-size: 28rpx;}
+.goodsSwiperBox .gswTitle .gswTR image{width: 24rpx;height: 24rpx;}
+.gswSw{height: 250rpx;}
+.gswGoods{width: 100%;padding-left: 10rpx;font-weight: bold;}
+.gswGoods image{width: 100%;height: 176rpx;border-radius: 10rpx;display: block;}
+.gswGoods .goodsTxt{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;font-size: 24rpx;line-height: 33rpx;text-align: center;}
+.gswGoods .goodsPrice{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;color: #FF3636;font-size: 30rpx;line-height: 42rpx;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-pack: center;-webkit-justify-content: center;justify-content: center;}
+
