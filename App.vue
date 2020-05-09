@@ -120,7 +120,9 @@
 	video {
 		box-sizing: border-box;
 	}
-
+.carousel-item-center{
+	width: 175px!important;
+}
 	/* 骨架屏替代方案 */
 	.Skeleton {
 		background: #f3f3f3;

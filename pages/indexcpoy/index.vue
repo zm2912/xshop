@@ -73,9 +73,12 @@
 			</view>
 			
 			<view class=".guess-section-goodsSwiper">
-				<swiper class="carousel" circular @change="swiperChange" :autoplay="true">
-					<swiper-item v-for="(item, index) in carouselList" :key="index" class="carousel-item" @click="navToLink(item)">
-						<image :src="item.image" />
+				<swiper class="carousel-swiper-center" @change="swiperChange">
+					<swiper-item v-for="(item, index) in carouselList" :key="index" class="carousel-item-center" @click="navToLink(item)">
+						<image :src="item.image"/>
+						<view class="title">AnnoMundi 宫廷泡泡袖短袖针织上衣女夏设计感小众撞色拼接T恤</view>
+						<text class="price">￥44.65</text>
+						<view class="number">已拼2332件</view>
 					</swiper-item>
 				</swiper>
 			</view>
@@ -492,6 +495,45 @@
 			width: 90%;
 			height: 90%;
 			border-radius: 10upx;
+		}
+	}
+	.carousel-swiper-center{
+		width: 100%;
+		height: 350upx;
+		.carousel-item-center {
+			padding: 28upx 0 0 10upx;
+			overflow: hidden;
+			.title{
+				font-family:PingFangSC-Medium,PingFang SC;
+				font-weight:500;
+				color:rgba(51,51,51,1);
+				line-height:20px;
+				display: -webkit-box;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				word-wrap: break-word;
+				white-space: normal !important;
+				-webkit-line-clamp: 1;
+				-webkit-box-orient: vertical;
+				width: 120px;
+			}
+			.price {
+				font-size: $font-lg;
+				color: $uni-color-primary;
+				line-height: 1;
+			}
+			.number{
+				font-family:PingFangSC-Regular,PingFang SC;
+				font-weight:400;
+				color:rgba(153,153,153,1);
+			}
+			image {
+			width: 120px;
+			height: 100px;
+			display: inline-block;
+			overflow: hidden;
+			
+			}
 		}
 	}
 
